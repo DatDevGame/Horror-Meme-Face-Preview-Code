@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af066444fa488c24a8d6d170476ffce3, type: 3}
+  m_Name: S-21
+  m_EditorClassIdentifier: 
+  Mission:
+    <Name>k__BackingField: Seek And Kill
+    <Order>k__BackingField: 21
+    <IsSpecial>k__BackingField: 0
+    <TargetWin>k__BackingField: 5
+    <Description>k__BackingField: Seek & kill xx enemies
+    <Prize>k__BackingField: 400
+    <MoneyToUnlock>k__BackingField: 500
+    <Avatar>k__BackingField: {fileID: 21300000, guid: f03792f04cc218d48827029853e29f2b,
+      type: 3}
+    <DiffcultyImage>k__BackingField:
+    - {fileID: 21300000, guid: 0768a1efed99fb44fa02e36c7d8c5a5b, type: 3}
+    - {fileID: 21300000, guid: bd34c99a996adb94fa75eaf1ecdfecb7, type: 3}
+    - {fileID: 21300000, guid: 394778c6cf7a7a3419541e397226b55e, type: 3}
+    - {fileID: 21300000, guid: 753565183a11b474aa9c8091b2f99bcc, type: 3}
+    TypeDifficultMission: 1
+    MapSetting: {fileID: 11400000, guid: 540479e76425fd640ab85a4a1b3e6c7c, type: 2}
+    ModeGamePlay: 1
+    <GamePlayDescriptionImages>k__BackingField:
+    - {fileID: 21300000, guid: b1393c268c6138e4caf5552810757f25, type: 3}
+    - {fileID: 21300000, guid: a305f517157b3034a862b61b1ff9c65e, type: 3}
+    - {fileID: 21300000, guid: c6fda27b8aa7dcc47ad1039df6fa3400, type: 3}
+    - {fileID: 21300000, guid: 589bacb105c3b8a4faa4c406bb1b1797, type: 3}
+    EnemyGroups:
+    - Type: 1
+      EnemySettings: {fileID: 11400000, guid: 549d5c72ab1eddc49b744f3899721e2a, type: 2}
+      Amount: 16
+      HasKey: 0
+      level: 1
+    - Type: 1
+      EnemySettings: {fileID: 11400000, guid: dddcb9618ef799147baf6eb701364118, type: 2}
+      Amount: 15
+      HasKey: 0
+      level: 1
+    - Type: 0
+      EnemySettings: {fileID: 11400000, guid: 549d5c72ab1eddc49b744f3899721e2a, type: 2}
+      Amount: 1
+      HasKey: 0
+      level: 1
+    PercentSleepEnemy: 20
+    PercentPatrolEnemy: 50
+    <TutorialUIEnemy>k__BackingField: {fileID: 0}
+    <TutorialGameObject>k__BackingField: {fileID: 0}
+    MaxStaminaSettings: {fileID: 0}
+    SkillSupportItems:
+    - {fileID: 725622540247646016, guid: 8ec83d0bc8e404f4295748c458e76886, type: 3}
+    - {fileID: 7476422232869987377, guid: 90df98bedb642f84aa1976bcee06df3f, type: 3}
+    - {fileID: 1541406204681039930, guid: b38203077cf2ac845a588074a1cdd6d4, type: 3}
+    SupportItemsSettings:
+    - GameObjectSupportItems: {fileID: 7476422232869987377, guid: 90df98bedb642f84aa1976bcee06df3f,
+        type: 3}
+      percentSpawn: 10
+    - GameObjectSupportItems: {fileID: 1541406204681039930, guid: b38203077cf2ac845a588074a1cdd6d4,
+        type: 3}
+      percentSpawn: 10
+    PhotoTypeMission: 0
+    TutorialString: 
+    TutorialStringImportant: KILL XX ENEMIES
+    NextBotJumpScareSpawnPoint:
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: dbc72fba5fc9fdc4f8d69f56d1308471,
+        type: 3}
+      pointSpawn: 1
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 7f8c3c7e19e7af6489cd9ad1e2227968,
+        type: 3}
+      pointSpawn: 2
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 24f794544ee477b45acb45a5f8df2548,
+        type: 3}
+      pointSpawn: 3
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 567e6fd112332394f8c1e940ceaa83f7,
+        type: 3}
+      pointSpawn: 4
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 8af7a951824b9ad40a649b7c1ec41f82,
+        type: 3}
+      pointSpawn: 5
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: c951dac678022404eb390372ef8db84c,
+        type: 3}
+      pointSpawn: 6
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: ffb2ef66b70c51f4fa2d41342133488c,
+        type: 3}
+      pointSpawn: 7
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 06a495b8977f1d04b8f81ad90385a99a,
+        type: 3}
+      pointSpawn: 8
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 794d861be2b1d1d47a3ecea810c54b81,
+        type: 3}
+      pointSpawn: 9
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 572284de5f2e3f4469b82dd6600efb9e,
+        type: 3}
+      pointSpawn: 10
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: b3ef42e761a6e864085a730dbe45a3f4,
+        type: 3}
+      pointSpawn: 11
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: dbc72fba5fc9fdc4f8d69f56d1308471,
+        type: 3}
+      pointSpawn: 12
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 7f8c3c7e19e7af6489cd9ad1e2227968,
+        type: 3}
+      pointSpawn: 13
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 24f794544ee477b45acb45a5f8df2548,
+        type: 3}
+      pointSpawn: 14
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 567e6fd112332394f8c1e940ceaa83f7,
+        type: 3}
+      pointSpawn: 15
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 8af7a951824b9ad40a649b7c1ec41f82,
+        type: 3}
+      pointSpawn: 16
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: c951dac678022404eb390372ef8db84c,
+        type: 3}
+      pointSpawn: 17
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: ffb2ef66b70c51f4fa2d41342133488c,
+        type: 3}
+      pointSpawn: 18
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 06a495b8977f1d04b8f81ad90385a99a,
+        type: 3}
+      pointSpawn: 19
+    - modelNextBotJumpScare: {fileID: 730102533052256312, guid: 572284de5f2e3f4469b82dd6600efb9e,
+        type: 3}
+      pointSpawn: 20
+    MonsterJumpScareSpawnPoint:
+    - modelMonsterJumpScare: {fileID: 3537351227180044070, guid: b0140fa3e4c57ff4a957830503f2922b,
+        type: 3}
+      pointSpawn: 1
+    - modelMonsterJumpScare: {fileID: 3537351227180044070, guid: 79d0be1658a7c1a428c90889d11a8fb6,
+        type: 3}
+      pointSpawn: 2
+    - modelMonsterJumpScare: {fileID: 3537351227180044070, guid: 3450e2931b0656e4a84539e4b202fd8d,
+        type: 3}
+      pointSpawn: 3
+    - modelMonsterJumpScare: {fileID: 3537351227180044070, guid: 0542ee798be40454ea062b798c2bddd3,
+        type: 3}
+      pointSpawn: 4
+    - modelMonsterJumpScare: {fileID: 3537351227180044070, guid: 7114f1bff8c820140a769f9e624dfe5e,
+        type: 3}
+      pointSpawn: 5
+    - modelMonsterJumpScare: {fileID: 3537351227180044070, guid: 2cf52aade7e713b4ba8af1276cf3bb60,
+        type: 3}
+      pointSpawn: 6
+    - modelMonsterJumpScare: {fileID: 3537351227180044070, guid: 7da6498a52c1de041b51273151df93da,
+        type: 3}
+      pointSpawn: 7
+    - modelMonsterJumpScare: {fileID: 3537351227180044070, guid: 1c69b0d35bbca1a479843f254db30fb6,
+        type: 3}
+      pointSpawn: 8
+    - modelMonsterJumpScare: {fileID: 3537351227180044070, guid: 8103b86ea8074c54dbf453e972733a78,
+        type: 3}
+      pointSpawn: 9
+    - modelMonsterJumpScare: {fileID: 3537351227180044070, guid: 79d0be1658a7c1a428c90889d11a8fb6,
+        type: 3}
+      pointSpawn: 10
+    HeadMonsterJumpScareSpawnPoint:
+    - modelHeadMonsterJumpScare: {fileID: 3317283907265211033, guid: 5024c396608f2ab4eb34040f90a7c9ab,
+        type: 3}
+      pointSpawn: 1
+    - modelHeadMonsterJumpScare: {fileID: 3317283907265211033, guid: f027e68a1a7a77445ab2920c9ea9a79d,
+        type: 3}
+      pointSpawn: 2
+    - modelHeadMonsterJumpScare: {fileID: 3317283907265211033, guid: df2eeb6d9351c5e49a1dec1e1c6f7f2e,
+        type: 3}
+      pointSpawn: 3
+    - modelHeadMonsterJumpScare: {fileID: 3317283907265211033, guid: b95035edb91b8b942b0f02d5a3bd79dd,
+        type: 3}
+      pointSpawn: 4
+    - modelHeadMonsterJumpScare: {fileID: 3317283907265211033, guid: 3a5c531f18f63bf4cb0724650848152a,
+        type: 3}
+      pointSpawn: 5
+    - modelHeadMonsterJumpScare: {fileID: 3317283907265211033, guid: 870e9706fb07a2941a27f7222adec85e,
+        type: 3}
+      pointSpawn: 6
+    - modelHeadMonsterJumpScare: {fileID: 3317283907265211033, guid: e7d6f83f1c3479e4ba13d19b9416a151,
+        type: 3}
+      pointSpawn: 7
+    - modelHeadMonsterJumpScare: {fileID: 3317283907265211033, guid: faef73c45cd38bb47b0a6a011e00c42f,
+        type: 3}
+      pointSpawn: 8
+    - modelHeadMonsterJumpScare: {fileID: 3317283907265211033, guid: f27d6293a4e21f840a717e945f84cc54,
+        type: 3}
+      pointSpawn: 9
+    - modelHeadMonsterJumpScare: {fileID: 3317283907265211033, guid: 3a5c531f18f63bf4cb0724650848152a,
+        type: 3}
+      pointSpawn: 10
+    MustReduceHalfEnemy: 0
+    RESpawnPoints: 0a000000030000003600000024000000170000002c0000002900000032000000120000000c00000042000000400000001400000035000000450000002f000000370000000700000001000000390000003c0000003e00000031000000150000002200000027000000090000001e000000330000001b00000005000000
+    GESpawnPoints: 01000000
+    RunnerPosition: 7
+    ExitDoorPosition: 1

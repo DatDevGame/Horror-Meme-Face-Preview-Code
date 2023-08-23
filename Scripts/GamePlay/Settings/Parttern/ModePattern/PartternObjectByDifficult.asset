@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b218d58a7feaa4cb123f7b7b15a4ee, type: 3}
+  m_Name: PartternObjectByDifficult
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  CustomSkillPartterns:
+  - difficultyType: 1
+    SkillPatternEnemyGlobal: {fileID: 11400000, guid: 8257319f2967a4448b2db594f771891e,
+      type: 2}
+    SkillPatternEnemyRegional: {fileID: 11400000, guid: 814ce87ca3609a141b7413b073870c81,
+      type: 2}
+    SkillPatternRunner: {fileID: 11400000, guid: 584596af474fa84419123c9b8e2665cb,
+      type: 2}
+  - difficultyType: 2
+    SkillPatternEnemyGlobal: {fileID: 11400000, guid: cafd0ea3c40788b4898b556efa0b9785,
+      type: 2}
+    SkillPatternEnemyRegional: {fileID: 11400000, guid: f47b11701b7bffa44bd53eadea4c1c7a,
+      type: 2}
+    SkillPatternRunner: {fileID: 11400000, guid: 92bcfcc754f3e6a47aa15e1b0096c1d3,
+      type: 2}
+  - difficultyType: 3
+    SkillPatternEnemyGlobal: {fileID: 11400000, guid: 770c47c541b5af84c9557347b07a9947,
+      type: 2}
+    SkillPatternEnemyRegional: {fileID: 11400000, guid: 64a0cb7f5cc7c344dad576a79df7157c,
+      type: 2}
+    SkillPatternRunner: {fileID: 11400000, guid: 24a62463b8f0ba04a9ce4588ea0695d3,
+      type: 2}

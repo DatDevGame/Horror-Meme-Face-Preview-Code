@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b44dd96dd6c1ce64ba0f7fa235637a01, type: 3}
+  m_Name: LightSaberGreen
+  m_EditorClassIdentifier: 
+  weapon:
+    <Name>k__BackingField: GRREN LIGHTSABER
+    <Order>k__BackingField: 9
+    <SkillSettings>k__BackingField: {fileID: 11400000, guid: 8fe3f0199afae98499bbcf4575371448,
+      type: 2}
+    <Description>k__BackingField: +100 Damage
+    <Image>k__BackingField: {fileID: 21300000, guid: 57ee9a4627cc11b418a19dc8aee0d6f7,
+      type: 3}
+    <Price>k__BackingField:
+      Currency: 0
+      Value: 2500
+    <ModelItemSupport>k__BackingField: {fileID: 2860176288130532181, guid: a1523a9fbc02f5e41b06b02b376a7ff7,
+      type: 3}
+    <TypeItems>k__BackingField: 2
+    <LevelIndex>k__BackingField: 2

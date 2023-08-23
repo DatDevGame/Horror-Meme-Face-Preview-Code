@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8adb9faba403c2f4384111f885fae7ef, type: 3}
+  m_Name: MoveSkillGE
+  m_EditorClassIdentifier: 
+  MoveSkill:
+    <Name>k__BackingField: MoveSkillGE
+    _skillLevels:
+    - _index: 1
+      modifierOperator: 1
+      _speed:
+        basePoint: 7
+        percent: 0
+    - _index: 2
+      modifierOperator: 1
+      _speed:
+        basePoint: 8
+        percent: 0
+    - _index: 3
+      modifierOperator: 1
+      _speed:
+        basePoint: 9
+        percent: 0
+    AudioSourceModel: {fileID: 363123427408701750, guid: b35a274ca0300b046bc5c20670ff1601,
+      type: 3}

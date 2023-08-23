@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 855b7ebe9aad5ef43929df4ddf5e1a67, type: 3}
+  m_Name: LiveRunnerSkillSupport
+  m_EditorClassIdentifier: 
+  LiveSkill:
+    <Name>k__BackingField: LiveRunnerSkillSupport
+    _skillLevels:
+    - _index: 1
+      modifierOperator: 0
+      _healthPointDefault:
+        basePoint: 20
+        percent: 0
+      _healthRegeneration:
+        basePoint: 0
+        percent: 0
+    - _index: 2
+      modifierOperator: 0
+      _healthPointDefault:
+        basePoint: 50
+        percent: 0
+      _healthRegeneration:
+        basePoint: 0
+        percent: 0
+    - _index: 3
+      modifierOperator: 0
+      _healthPointDefault:
+        basePoint: 100
+        percent: 0
+      _healthRegeneration:
+        basePoint: 0
+        percent: 0

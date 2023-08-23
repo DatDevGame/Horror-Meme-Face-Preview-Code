@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a9cbed232b1b440980edd9dbb63310, type: 3}
+  m_Name: DetectNearestTarget
+  m_EditorClassIdentifier: 
+  detectNearestTargetSkill:
+    <Name>k__BackingField: SceenIndicator
+    _skillLevels:
+    - _index: 1
+      modifierOperator: 1
+    - _index: 2
+      modifierOperator: 1
+    - _index: 3
+      modifierOperator: 1
+    ScreenIndicator: {fileID: 7220759229170356512, guid: 671a4b1195a50ce4fb067dbbad879ed2,
+      type: 3}
+    ArrowIndicator: {fileID: 150680, guid: 09cefc679ac23c54aa919111d8f3fc40, type: 3}
+    BoxIndicator: {fileID: 163008, guid: 3bb41426a165a0240b931a1f995e07cb, type: 3}
+    SeekAndKillColor: {r: 0.061502814, g: 1, b: 0, a: 1}
+    SeekAndKillCollectColor: {r: 0.0627451, g: 1, b: 0, a: 1}
+    TreasureColor: {r: 0.06978607, g: 1, b: 0, a: 1}
+    KeySprite: {fileID: 21300000, guid: b21fc4802db7ef0488de3675c533399c, type: 3}
+    TreasureSprite: {fileID: 21300000, guid: 9b8474a28905f484b92868c57265d90f, type: 3}
+    ExitDoorSprite: {fileID: 21300000, guid: 1c399614e2dd03e488838d81a89f58c2, type: 3}

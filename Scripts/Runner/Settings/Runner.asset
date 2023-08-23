@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb7bac592fa34346bd764c93a64497b, type: 3}
+  m_Name: Runner
+  m_EditorClassIdentifier: 
+  Runner:
+    <Name>k__BackingField: Default Runner
+    WalkRunnerSkillSettings: {fileID: 11400000, guid: 420e03caa58c8264bba6f4c6492e2345,
+      type: 2}
+    RunRunnerSkillSettings: {fileID: 11400000, guid: c218c5f79a42fa34fbf3a28d69037246,
+      type: 2}
+    LookRunnerSkillSettings: {fileID: 11400000, guid: d0f0f8bf3bab63d4883e6cb9ae16e4b4,
+      type: 2}
+    JumpRunnerSkillSettings: {fileID: 11400000, guid: 87236a2eeddb24140ada591eca618e2e,
+      type: 2}
+    GravityRunnerSkillSettings: {fileID: 11400000, guid: efc60fb84aac012438f79b5f8b5e735a,
+      type: 2}
+    LiveRunnerSkillSettings: {fileID: 11400000, guid: 821e5a2aa71be364792e41b816e13bfb,
+      type: 2}
+    MakeMovingSoundSkillSettings: {fileID: 11400000, guid: 3cf009ed3bdf3ba45aa33acdaa1f58b6,
+      type: 2}
+    SetLightSkillSettings: {fileID: 11400000, guid: dd58d1451447f8146a6b859c3bd99cbb,
+      type: 2}
+    StaminaSkillSettings: {fileID: 11400000, guid: cb4d33d0015a00a46addf2b0f53eaf05,
+      type: 2}
+    AttackMeleeSkillSettings: {fileID: 11400000, guid: 2ecd8b95703cf14479497a2c46618a39,
+      type: 2}
+    DetectNearestTargetSkillSettings: {fileID: 11400000, guid: b90991e3edaf97e4496dc2dee72693b6,
+      type: 2}
+    WalkRunnerSkillLevel: 1
+    RunRunnerSkillLevel: 1
+    LookSkillLevel: 1
+    JumpRunnerSkillLevel: 1
+    GravityRunnerSkillLevel: 1
+    LiveRunnerSkillLevel: 1
+    MakeMovingSoundSkillLevel: 1
+    SetLightSkillLevel: 1
+    StaminaSkillLevel: 1
+    AttackMeleeSkillLevel: 1
+    DetectNearestTargetSkillLevel: 1

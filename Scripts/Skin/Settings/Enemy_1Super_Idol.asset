@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce140e8a027f4447904086a7c75ddb7, type: 3}
+  m_Name: Enemy_1Super_Idol
+  m_EditorClassIdentifier: 
+  skin:
+    <Name>k__BackingField: Super Idol
+    CubeColor: {r: 1, g: 0, b: 0, a: 1}
+    <Model>k__BackingField: {fileID: 9129500719578704043, guid: c4928f396453e084f891ac9367c32382,
+      type: 3}
+    MonsterForm: 1
+    <JumpScareSkin>k__BackingField:
+      <ModelJumpScare>k__BackingField: {fileID: 5621720449539931335, guid: 94e695e9d86467f4e803291b14858c9b,
+        type: 3}
+      JumpScareAnimation: {fileID: 9100000, guid: c8399ee96f4e5cc4ca5a17ab5af6138e,
+        type: 2}
+    <Image>k__BackingField: {fileID: 21300000, guid: d19e16bc4a810cc47be17b69c0f92d01,
+      type: 3}
+    <Price>k__BackingField:
+      Currency: 0
+      Value: 222
+    <DefaultMissionSetting>k__BackingField: {fileID: 11400000, guid: 6161747e86e5cf7488f4de23901c68ce,
+      type: 2}

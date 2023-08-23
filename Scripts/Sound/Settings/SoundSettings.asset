@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e463b59cad148341adf3e1ad0aa8b51, type: 3}
+  m_Name: SoundSettings
+  m_EditorClassIdentifier: 
+  Sound:
+    <Name>k__BackingField: Sounds
+    RunnerWalk: {fileID: 8300000, guid: e00f0f0e397a9614db92d4aa8065c995, type: 3}
+    RunnerRun: {fileID: 8300000, guid: 0dd58c6b0889b644f97111cb54d37ff9, type: 3}
+    RunnerAttack: {fileID: 8300000, guid: 1d3e6c2ed74185340904067efddd19d2, type: 3}
+    RunnerTired: {fileID: 8300000, guid: 426cf0f7593f8c54a9f47ec5c203a94e, type: 3}
+    RunnerLowHP: {fileID: 8300000, guid: 2b20e32933937fb4d9fc96d33c2dc88f, type: 3}
+    MaxStamina: {fileID: 8300000, guid: 1595cd2f489c3154a8e00b6f7a6b1ea8, type: 3}
+    EnemyReceiveDame: {fileID: 0}
+    EnemyAttack: {fileID: 8300000, guid: 732dd4614b4f3c145b94d69c540344b9, type: 3}
+    ListJumpScare:
+    - {fileID: 8300000, guid: 889cb83e8069e90448ec07681e74db3d, type: 3}
+    - {fileID: 8300000, guid: dd19c055735e6a54284b037fc18a448f, type: 3}
+    - {fileID: 8300000, guid: d7815309e6c4698498f75f024c3f200a, type: 3}
+    - {fileID: 8300000, guid: 79e2fffd004843443a2715d3f52e4baf, type: 3}
+    - {fileID: 8300000, guid: 1b26cfd4c7314184aa25b39f81863090, type: 3}
+    - {fileID: 8300000, guid: 033985d4b9a75f240a672a127c143619, type: 3}
+    - {fileID: 8300000, guid: 85f0aabaa59d9d7408051c77c7420613, type: 3}
+    - {fileID: 8300000, guid: e1406d5866833424e8b190e184b43d07, type: 3}
+    - {fileID: 8300000, guid: 79ece2cc6889cca43a6aace993c5bd5f, type: 3}
+    - {fileID: 8300000, guid: 13a25c16be2ae5b48a2d08c612553452, type: 3}
+    - {fileID: 8300000, guid: bd8455ddbeafdfc4bb21d06e74fa859e, type: 3}
+    - {fileID: 8300000, guid: 5c98c873de75b294e85e742658248991, type: 3}
+    - {fileID: 8300000, guid: 94a47c5080a0ff344a947fa5312cd000, type: 3}
+    - {fileID: 8300000, guid: ecbdf24002416c0429d4c1c0a411896f, type: 3}
+    - {fileID: 8300000, guid: 033985d4b9a75f240a672a127c143619, type: 3}
+    - {fileID: 8300000, guid: 64a0f3f174bbe884c9e19bcf40ef37ad, type: 3}
+    - {fileID: 8300000, guid: 0e5e1d07b1d35974882936f2fd4ab8c7, type: 3}
+    ListChasing:
+    - {fileID: 8300000, guid: f8163a7defc2fec4799847d80ff46233, type: 3}
+    - {fileID: 8300000, guid: fddad4fb4516e314e9eb66e6917a92ac, type: 3}
+    - {fileID: 8300000, guid: 7dfbfd95872e6e34cab7346008518875, type: 3}
+    - {fileID: 8300000, guid: 359bb958997c2244cb75b891f672051f, type: 3}
+    - {fileID: 8300000, guid: 4692222b919ca6644af003a8b294f20a, type: 3}
+    - {fileID: 8300000, guid: 1fd5da8005e3fde448c38a22b38fd56c, type: 3}
+    - {fileID: 8300000, guid: e64674fa2eeaae34fa1994e6d8167edb, type: 3}
+    - {fileID: 8300000, guid: 04f054b37772ea64b85ca7a8ead44c48, type: 3}
+    - {fileID: 8300000, guid: de3014cea4b46b34eb648ad1c2f3a460, type: 3}
+    - {fileID: 8300000, guid: 922a737323b3f5442907f95fe444dedf, type: 3}
+    - {fileID: 8300000, guid: 1df20066be5035c4bab7eb3af50b2a40, type: 3}
+    - {fileID: 8300000, guid: 94b5d7a84b76ef64fa5cdad015526639, type: 3}
+    - {fileID: 8300000, guid: 37e564dcd830e864495728a433dcb6b5, type: 3}
+    - {fileID: 8300000, guid: 1f4e748f64f72924d9b8ee0954617ee6, type: 3}
+    - {fileID: 8300000, guid: 83b78f798521c304485482f8a44d121b, type: 3}
+    - {fileID: 8300000, guid: ee5d2b6c1e5b2dd46ae8453c733be65e, type: 3}
+    - {fileID: 8300000, guid: 7d64cde17bb44f64f90eb48023f07b21, type: 3}
+    - {fileID: 8300000, guid: 8f56a4bb6f284984babae54539b9b934, type: 3}
+    - {fileID: 8300000, guid: bb5b1e450a9800d4eb8682519b9a38f7, type: 3}
+    - {fileID: 8300000, guid: 94a47c5080a0ff344a947fa5312cd000, type: 3}
+    - {fileID: 8300000, guid: 83b78f798521c304485482f8a44d121b, type: 3}
+    - {fileID: 8300000, guid: 9aed6bf5411ccda448b04baa62ff7919, type: 3}
+    - {fileID: 8300000, guid: c480a5e89aa939e489c301cfb84c2991, type: 3}
+    - {fileID: 8300000, guid: 3fefa060ed0804a4fb66c58337e6ed1f, type: 3}
+    - {fileID: 8300000, guid: a1295636021a86a4fa9cd92d3a660067, type: 3}
+    - {fileID: 8300000, guid: 1fd5da8005e3fde448c38a22b38fd56c, type: 3}
+    - {fileID: 8300000, guid: f2c98c7e001e2ec45986a87ffd8aec1e, type: 3}
+    - {fileID: 8300000, guid: 44b5841a3b28a1c4394896dede118b3e, type: 3}
+    - {fileID: 8300000, guid: 4d4c0ef534c7b84488a645b502b803eb, type: 3}
+    - {fileID: 8300000, guid: 7db4eaf350535324d842b82751f78c4c, type: 3}
+    SoundBackGroundLobby: {fileID: 8300000, guid: e0d20fb3b5776664d8115ac44a91fce4,
+      type: 3}
+    SoundBackGroundInGame: {fileID: 0}
+    Win: {fileID: 8300000, guid: 36f7ab543f83d4f4894c412798d1c476, type: 3}
+    Lose: {fileID: 8300000, guid: 4cc5d2ec3dd0d0942961bf6060e154b3, type: 3}
+    HealItem: {fileID: 8300000, guid: 885a3c1331c903f41a77b54df8f36522, type: 3}
+    StaminaItem: {fileID: 8300000, guid: 1595cd2f489c3154a8e00b6f7a6b1ea8, type: 3}
+    TreasureItem: {fileID: 8300000, guid: c8b982db0239a2241b339baf9e2877ab, type: 3}
+    BreakTimeInGame: {fileID: 8300000, guid: c60d5adcae6955245a2698fb6f912e2b, type: 3}

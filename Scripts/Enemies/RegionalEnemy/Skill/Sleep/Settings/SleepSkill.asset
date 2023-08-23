@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6171d0168e94e6749b0dc4a64e8947e0, type: 3}
+  m_Name: SleepSkill
+  m_EditorClassIdentifier: 
+  SleepSkill:
+    <Name>k__BackingField: SleepSkill
+    _skillLevels:
+    - _index: 1
+      modifierOperator: 1
+      _rateWakeUp:
+        basePoint: 20
+        percent: 0
+    - _index: 2
+      modifierOperator: 1
+      _rateWakeUp:
+        basePoint: 35
+        percent: 0
+    - _index: 3
+      modifierOperator: 1
+      _rateWakeUp:
+        basePoint: 45
+        percent: 0
+    Model: {fileID: 8708417364871421059, guid: 7c6cb6142417ca3499658cc5423d8289, type: 3}
+    EffectSleepModel: {fileID: 7308088366062649475, guid: 7a3893a748d24e648b42eced000b3026,
+      type: 3}

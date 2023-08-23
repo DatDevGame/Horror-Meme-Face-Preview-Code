@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2abc5d85219b02049bee4462c04887ca, type: 3}
+  m_Name: AttackMeleHammerRoyal
+  m_EditorClassIdentifier: 
+  AttackMelee:
+    <Name>k__BackingField: AttackMeleeHammer
+    _skillLevels:
+    - _index: 1
+      modifierOperator: 1
+      _damage:
+        basePoint: 100
+        percent: 0
+      _timeCountDown:
+        basePoint: 1
+        percent: 0
+    - _index: 2
+      modifierOperator: 1
+      _damage:
+        basePoint: 100
+        percent: 0
+      _timeCountDown:
+        basePoint: 1
+        percent: 0
+    - _index: 3
+      modifierOperator: 1
+      _damage:
+        basePoint: 150
+        percent: 0
+      _timeCountDown:
+        basePoint: 1
+        percent: 0
+    Model: {fileID: 6973616553707171310, guid: 27454ac23b0783c43bafed8be0f0b5cc, type: 3}
+    LightSaberModel: {fileID: 3579098875590129826, guid: 62478f22f3ea16a4a89be01b908753ad,
+      type: 3}
+    AudioWeapon: {fileID: 8300000, guid: 3ea2b1496df402c4894d1a769a2367c8, type: 3}

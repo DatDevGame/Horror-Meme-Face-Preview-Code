@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b5c9614568eb346b79c3a7cac85d9e, type: 3}
+  m_Name: LiveSkill
+  m_EditorClassIdentifier: 
+  LiveEnemySkill:
+    <Name>k__BackingField: LiveEnemy
+    _skillLevels:
+    - _index: 1
+      modifierOperator: 1
+      _healthPointDefault:
+        basePoint: 50
+        percent: 0
+    - _index: 2
+      modifierOperator: 1
+      _healthPointDefault:
+        basePoint: 50
+        percent: 0
+    - _index: 3
+      modifierOperator: 1
+      _healthPointDefault:
+        basePoint: 50
+        percent: 0
+    Model: {fileID: 8708417364871421059, guid: 7c6cb6142417ca3499658cc5423d8289, type: 3}
+    HitEffect: {fileID: 5170585893340993107, guid: 7b88f11816abaa34c9e02cbaa8485321,
+      type: 3}
+    HitMonsterEffect: {fileID: 5170585893340993107, guid: cf44a512c2963ea468b992b42f804ed3,
+      type: 3}

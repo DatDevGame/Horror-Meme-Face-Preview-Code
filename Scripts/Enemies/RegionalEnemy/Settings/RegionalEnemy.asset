@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18edbc8bb53d8b14080a211cae1a9b6f, type: 3}
+  m_Name: RegionalEnemy
+  m_EditorClassIdentifier: 
+  RegionalEnemy:
+    <Name>k__BackingField: RegionalEnemy
+    MoveEnemySkillSettings: {fileID: 11400000, guid: ae721432b2dcb764b9a31df0c32186c0,
+      type: 2}
+    ThinkToRegionalSeekSkillSettings: {fileID: 11400000, guid: cc6bdc1df2b88e3478925426cd73467a,
+      type: 2}
+    AttackSkillSettings: {fileID: 11400000, guid: af31377f62051eb4e863d9ea982c3cca,
+      type: 2}
+    PatrolSkillSettings: {fileID: 11400000, guid: fe372c127d986374482311890f261a5e,
+      type: 2}
+    SleepSkillSettings: {fileID: 11400000, guid: 9958665b6de4229448bbe4d258efa2ec,
+      type: 2}
+    LiveEnemySkillSetting: {fileID: 11400000, guid: 714b91ef341f14242b5666b4620a25ed,
+      type: 2}
+    MoveEnemySkillLevel: 1
+    ThinkToRegionalSeekSkillLevel: 1
+    AttackSkillLevel: 1
+    PatrolSkillLevel: 1
+    SleepSkillLevel: 0
+    LiveSkillLevel: 1
+    EnemyLevelSettings:
+    - levelEnemy: 1
+      MoveEnemySkillLevel: 1
+      AttackSkillLevel: 1
+      SleepSkillLevel: 1
+      LiveSkillLevel: 1
+      PatrolSkillLevel: 1
+    - levelEnemy: 2
+      MoveEnemySkillLevel: 2
+      AttackSkillLevel: 2
+      SleepSkillLevel: 2
+      LiveSkillLevel: 1
+      PatrolSkillLevel: 1
+    - levelEnemy: 3
+      MoveEnemySkillLevel: 3
+      AttackSkillLevel: 3
+      SleepSkillLevel: 3
+      LiveSkillLevel: 1
+      PatrolSkillLevel: 1

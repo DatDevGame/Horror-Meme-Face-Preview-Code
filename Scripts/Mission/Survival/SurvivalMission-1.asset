@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af066444fa488c24a8d6d170476ffce3, type: 3}
+  m_Name: SurvivalMission-1
+  m_EditorClassIdentifier: 
+  Mission:
+    <Name>k__BackingField: MissionTutorialSuvival
+    <Order>k__BackingField: 0
+    <ImageItem>k__BackingField: {fileID: 0}
+    ListRigionalEnemies:
+    - NameEnemy: Blue
+      Enemy: {fileID: 11400000, guid: 2787ca4169231ff408d2d7e32e3f765a, type: 2}
+      QualityNumberEnemy: 0
+    - NameEnemy: Red
+      Enemy: {fileID: 11400000, guid: 8b7fe791163abf047815d6c20a92b792, type: 2}
+      QualityNumberEnemy: 0
+    ListGlobalEnemies:
+    - NameEnemy: Blue
+      Enemy: {fileID: 11400000, guid: 2787ca4169231ff408d2d7e32e3f765a, type: 2}
+      QualityNumberEnemy: 0
+    - NameEnemy: Red
+      Enemy: {fileID: 11400000, guid: 8b7fe791163abf047815d6c20a92b792, type: 2}
+      QualityNumberEnemy: 0

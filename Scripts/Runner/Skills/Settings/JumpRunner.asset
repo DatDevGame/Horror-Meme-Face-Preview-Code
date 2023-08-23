@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b8d8157dd29b548a827a0451ff6990, type: 3}
+  m_Name: JumpRunner
+  m_EditorClassIdentifier: 
+  moveSkill:
+    <Name>k__BackingField: 
+    _skillLevels:
+    - _index: 1
+      modifierOperator: 1
+      _speed:
+        basePoint: 17.5
+        percent: 0
+      _coolDownTime:
+        basePoint: 1
+        percent: 0

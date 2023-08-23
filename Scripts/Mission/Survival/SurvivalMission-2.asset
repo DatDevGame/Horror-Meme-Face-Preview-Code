@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af066444fa488c24a8d6d170476ffce3, type: 3}
+  m_Name: SurvivalMission-2
+  m_EditorClassIdentifier: 
+  Mission:
+    <Name>k__BackingField: s-2
+    <Order>k__BackingField: 0
+    <ImageItem>k__BackingField: {fileID: 21300000, guid: 5e386027c898d6049bff583b95ca3b8b,
+      type: 3}
+    <ImageItemFirst>k__BackingField: {fileID: 21300000, guid: 162344c169f73eb4186ccbdb7e17b18b,
+      type: 3}
+    <ImageItemSecond>k__BackingField: {fileID: 21300000, guid: edffe8bac906fea4eb25412df83d2e59,
+      type: 3}
+    <ImageDifficult>k__BackingField: {fileID: 21300000, guid: bd34c99a996adb94fa75eaf1ecdfecb7,
+      type: 3}
+    ListRigionalEnemies: []
+    ListGlobalEnemies: []

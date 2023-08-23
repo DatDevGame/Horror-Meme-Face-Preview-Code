@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce140e8a027f4447904086a7c75ddb7, type: 3}
+  m_Name: Enemy_AlphabetF
+  m_EditorClassIdentifier: 
+  skin:
+    <Name>k__BackingField: AlphabetF
+    CubeColor: {r: 1, g: 0, b: 0, a: 1}
+    <Model>k__BackingField: {fileID: 1637421433022323922, guid: dd7d95c62c86a824e824dcb88e46622f,
+      type: 3}
+    MonsterForm: 1
+    <JumpScareSkin>k__BackingField:
+      <ModelJumpScare>k__BackingField: {fileID: 8517541144697883629, guid: 288543678ff7b36448e557abcde04e85,
+        type: 3}
+      JumpScareAnimation: {fileID: 9100000, guid: 04ef260309844dd4cb8c4cbf96bc0eea,
+        type: 2}
+    <Image>k__BackingField: {fileID: 21300000, guid: 2da0309376db67e4e8924afda2d73ee0,
+      type: 3}
+    <Price>k__BackingField:
+      Currency: 0
+      Value: 222
+    <DefaultMissionSetting>k__BackingField: {fileID: 11400000, guid: a53e2fe613d2315489e66846fba9d783,
+      type: 2}

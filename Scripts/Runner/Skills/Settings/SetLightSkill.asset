@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40425eed3e960dc4a97c075b83597965, type: 3}
+  m_Name: SetLightSkill
+  m_EditorClassIdentifier: 
+  SetLightSkill:
+    <Name>k__BackingField: CheckLightArea
+    _skillLevels:
+    - _index: 1
+      modifierOperator: 1
+      _sizeX:
+        basePoint: 50
+        percent: 0
+      _sizeY:
+        basePoint: 10
+        percent: 0
+      _sizeZ:
+        basePoint: 120
+        percent: 0
+    Model: {fileID: 4304103873901788696, guid: a9fd116cf21434e45ad0a980c2b2bf52, type: 3}
